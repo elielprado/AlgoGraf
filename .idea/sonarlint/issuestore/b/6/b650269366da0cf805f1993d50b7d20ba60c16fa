@@ -1,0 +1,12 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÃÁîşÿÿÿÿ8’´Ìœ2J$97d70275-1129-4549-9570-fe11d1091e97
+…
+java:S2259"BA "NullPointerException" could be thrown; "item" is nullable here.(Ü†ô8–´Ìœ2J$d7655a31-c31f-490a-984a-56dc4271aa12
+“
+java:S1206
+"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8˜´Ìœ2J$d354a5bf-819c-4dfe-8b39-ef172c94f0be
+e
+java:S1659""Declare "peso" on a separate line.(”Òˆ€8›´Ìœ2J$11ba4ea4-2f7e-4f12-aecd-9d64fe752b61
+b
+java:S2097
+"Add a type test to this method.(ÜÑã8Ÿ´Ìœ2J$c354fed5-4893-413f-ac7e-9c0a6499894b

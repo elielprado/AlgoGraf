@@ -1,0 +1,14 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÃÁîşÿÿÿÿ8”ÕåŒ˜2J$c1596b40-6080-4c6d-b9ee-8af1beb2247f
+o
+java:S1197",Move the array designators [][] to the type.(Å’ÒÃ8¡ÕåŒ˜2J$86885c3f-ad75-4cfb-9bf9-74af84b4fc2a
+r
+java:S1197"*Move the array designators [] to the type.(òñ’Èıÿÿÿÿ8¡ÕåŒ˜2J$3a1ade95-a949-4297-9f05-c3563759c903
+m	java:S106+"+Replace this use of System.out by a logger.(×•œ²8°ÕåŒ˜2J$8f2c0586-4c67-4f7d-b88e-2cb945e1c669
+m	java:S106-"+Replace this use of System.out by a logger.(Ù©È±8²ÕåŒ˜2J$144e9a8f-cda1-46e5-aa79-cf276ada9851
+r	java:S106/"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8³ÕåŒ˜2J$7da373a3-8bca-4a38-9f9d-91c6de12f874
+m	java:S1061"+Replace this use of System.out by a logger.(Ù©È±8¶ÕåŒ˜2J$afcc4eff-e43d-4a1d-88ae-8454be19671f
+r	java:S1063"+Replace this use of System.out by a logger.(¼â®²ıÿÿÿÿ8’ìåŒ˜2J$bfe3b8e5-ea14-44e8-9a22-fab5ae30a5e3
+r	java:S1065"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ŸµêŒ˜2J$dca3929b-dab7-46b1-9dd6-77c425e1d789
+k
+java:S1172:"(Remove this unused method parameter "v".(ğŠÒ8ĞÛ…Íœ2J$58410e12-33d8-40e5-879c-08d07a5805b1
