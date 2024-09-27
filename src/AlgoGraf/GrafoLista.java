@@ -68,6 +68,45 @@ public class GrafoLista {
         return this.numVertices;
     }
 
+    public int grauTotalVertice(int v){
+        int grau = 0;
+
+        // Contando as arestas de saída de v
+        for(int i = 0; i<this.numVertices; i++){
+            if(this.existeAresta(v, i)){
+                grau++;
+            }
+        }
+
+        // Contando as arestas de entrada para v
+        for(int i = 0; i<this.numVertices; i++){
+            if(this.existeAresta(i, v) && i != v){ // Evitando contar arestas de laço duas vezes
+                grau++;
+            }
+        }
+
+        return grau;
+    }
+
+
+    public void listaAdjacentes(int v){
+        Celula item = (Celula) this.adj[v].primeiro();
+        while(item != null){
+            System.out.print(item.vertice + " ");
+            item = (Celula) this.adj[v].proximo();
+        }
+        System.out.println();
+    }
+
+    public int grauSaidaVertice(int v) {
+        int grau = 0;
+        for (int i = 0; i < this.numVertices; i++) {
+            if (this.existeAresta(v, i)) {
+                grau++;
+            }
+        }
+        return grau;
+    }
 }
 
 

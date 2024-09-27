@@ -1,7 +1,7 @@
 package AlgoGraf;
 
 public class Main {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         //Exemplo matriz adjacencia:
         /*Grafo g1 = new Grafo(3);
         g1.insereAresta(0,1,1);
@@ -26,6 +26,10 @@ public class Main {
         g1.insereAresta(0,1,5);
         g1.insereAresta(1,1,3);
         g1.insereAresta(1,2,7);
+        System.out.println("Grau do vertice 1: ");
+        System.out.println(g1.grauSaidaVertice(1));
+        System.out.println("Lista de adjacentes ao vertice 1: ");
+        g1.listaAdjacentes(1);
         g1.imprime();
         System.out.println("Fim");
 
