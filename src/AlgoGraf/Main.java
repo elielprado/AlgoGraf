@@ -1,37 +1,39 @@
 package AlgoGraf;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        //Exemplo matriz adjacencia:
-        /*Grafo g1 = new Grafo(3);
-        g1.insereAresta(0,1,1);
-        g1.insereAresta(0,2,2);
-        g1.insereAresta(2,1,3);
-        System.out.println("Imprimindo Matriz de Adjacencia");
+
+        GrafoLista g1 = new GrafoLista(8);
+        g1.insereAresta(0,2,0);
+        g1.insereAresta(0,4,0);
+        g1.insereAresta(2,7,0);
+        g1.insereAresta(7,5,0);
+        g1.insereAresta(5,1,0);
+        g1.insereAresta(5,4,0);
+        g1.insereAresta(4,5,0);
+        g1.insereAresta(4,7,0);
+        g1.insereAresta(1,3,0);
+        g1.insereAresta(3,6,0);
+        g1.insereAresta(6,0,0);
+        g1.insereAresta(6,4,0);
+        g1.insereAresta(6,2,0);
+        g1.insereAresta(7,3,0);
+        g1.insereAresta(5,7,0);
+
         g1.imprime();
 
-        System.out.print("Existe aresta do vertice 1 -> 2? ");
-        System.out.println(g1.existeAresta(1,2));
-        System.out.printf("Lista de adjacencia vazia no vertice 1? ");
-        System.out.println(g1.listaAdjVazia(1));
-        System.out.printf("Peso do primeiro vertice da lista de adjacencia ");
-        System.out.println(g1.primeiroListaAdj(0).getPeso());
+        BuscaEmProfundidade busca = new BuscaEmProfundidade(g1);
+        busca.buscaEmProfundidade();
 
-        g1.retiraAresta(0,2);
-        System.out.println("Imprimindo Matriz de Adjacencia apos remocao da aresta 0 -> 2");
-        g1.imprime();
-        */
+        System.out.println("Conteudo do Array d: ");
+        for(int i = 0; i<8;i++){
+            System.out.print(" " + busca.d(i));
+        }
+        System.out.println();
 
-        GrafoLista g1 = new GrafoLista(4);
-        g1.insereAresta(0,1,5);
-        g1.insereAresta(1,1,3);
-        g1.insereAresta(1,2,7);
-        System.out.println("Grau do vertice 1: ");
-        System.out.println(g1.grauSaidaVertice(1));
-        System.out.println("Lista de adjacentes ao vertice 1: ");
-        g1.listaAdjacentes(1);
-        g1.imprime();
-        System.out.println("Fim");
+        System.out.println("FIM");
 
         //Criar metodo que retorna o grau de um vertice v.
         //Criar um metodo que apresenta todos os adjacentes de um vertice v.
